@@ -1,5 +1,10 @@
-package com.example.demo.pattern.creationalpattern.singleton.initialization;
+package com.example.demo.pattern.creationalpattern.singleton;
 
+/**
+ * Instance of the class is created at the time of class loading.
+ * Cons: May not use by application
+ * Examples: Database connection,
+ */
 public class EagerInitializedSingleton {
 
     private static final EagerInitializedSingleton INSTANCE = new EagerInitializedSingleton();

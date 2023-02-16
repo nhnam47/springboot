@@ -1,5 +1,10 @@
-package com.example.demo.pattern.creationalpattern.singleton.initialization;
+package com.example.demo.pattern.creationalpattern.singleton;
 
+/**
+ * Similar to Eager Initialized
+ * include static block
+ * handle exception
+ */
 public class StaticBlockSingleton {
     private static final StaticBlockSingleton INSTANCE;
 

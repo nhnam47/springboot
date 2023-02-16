@@ -1,4 +1,4 @@
-package com.example.demo.pattern.creationalpattern.singleton.initialization;
+package com.example.demo.pattern.creationalpattern.singleton;
 
 /**
  * Singleton implementation using enum initialization

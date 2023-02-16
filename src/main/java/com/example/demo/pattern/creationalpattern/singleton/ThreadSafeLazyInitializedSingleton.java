@@ -1,4 +1,4 @@
-package com.example.demo.pattern.creationalpattern.singleton.initialization;
+package com.example.demo.pattern.creationalpattern.singleton;
 
 public class ThreadSafeLazyInitializedSingleton {
     private static volatile ThreadSafeLazyInitializedSingleton instance;
